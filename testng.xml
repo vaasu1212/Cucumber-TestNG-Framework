@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite - Vasu" verbose="1" parallel="classes"
+	thread-count="3" configfailurepolicy="continue">
+	<test name="VirginMoney Test" annotations="JDK"
+		preserve-order="true">
+		<classes>
+			<class name="MyRunner.TestRunner" />
+			<class name="CucumberTest.CucumberTest.TestCase1" />
+			<class name="CucumberTest.CucumberTest.TestCase2" />
+		</classes>
+	</test>
+</suite>

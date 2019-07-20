@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="classes">
+  <test thread-count="2" name="FREE CRM Test(failed)" parallel="classes">
+    <classes>
+      <class name="CucumberTest.CucumberTest.TestCase1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- CucumberTest.CucumberTest.TestCase1 -->
+    </classes>
+  </test> <!-- FREE CRM Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
